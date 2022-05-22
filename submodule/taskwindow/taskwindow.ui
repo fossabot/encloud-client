@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TaskWindow</class>
+ <widget class="QWidget" name="TaskWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="UploadPage" name="uploadPage">
+      <attribute name="title">
+       <string>上传</string>
+      </attribute>
+     </widget>
+     <widget class="DownloadPage" name="downloadPage">
+      <attribute name="title">
+       <string>下载</string>
+      </attribute>
+     </widget>
+     <widget class="CompletedPage" name="completedPage">
+      <attribute name="title">
+       <string>已完成</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DownloadPage</class>
+   <extends>QWidget</extends>
+   <header>submodule/taskwindow/downloadpage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UploadPage</class>
+   <extends>QWidget</extends>
+   <header>submodule/taskwindow/uploadpage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CompletedPage</class>
+   <extends>QWidget</extends>
+   <header>submodule/taskwindow/completedpage.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/close.png</file>
+        <file>icons/maxwindow.png</file>
+        <file>icons/minwindow.png</file>
+        <file>icons/file.png</file>
+        <file>icons/chat_gourp2.png</file>
+        <file>icons/chat.png</file>
+        <file>icons/chat2.png</file>
+        <file>icons/chat3.png</file>
+        <file>icons/chat4.png</file>
+        <file>icons/clock.png</file>
+        <file>icons/cloud_dollar.png</file>
+        <file>icons/cloud_server.png</file>
+        <file>icons/cloud_share.png</file>
+        <file>icons/cloud_transport.png</file>
+        <file>icons/cloud.png</file>
+        <file>icons/friend_list.png</file>
+        <file>icons/group.png</file>
+        <file>icons/history_friend.png</file>
+        <file>icons/idea.png</file>
+        <file>icons/key.png</file>
+        <file>icons/search_friend.png</file>
+        <file>icons/setting.png</file>
+        <file>icons/setting2.png</file>
+        <file>icons/setting3.png</file>
+        <file>icons/share_link.png</file>
+        <file>icons/share.png</file>
+        <file>icons/share2.png</file>
+        <file>icons/speedup.png</file>
+        <file>icons/transport.png</file>
+        <file>icons/user_flash.png</file>
+        <file>icons/user_info.png</file>
+        <file>icons/user.png</file>
+        <file>icons/warning.png</file>
+        <file>icons/Arrow, rotation, interface.svg</file>
+        <file>icons/arrow_left.png</file>
+        <file>icons/arrow_right.png</file>
+        <file>icons/reflash.png</file>
+        <file>icons/home.png</file>
+        <file>icons/file2.png</file>
+        <file>icons/folder.png</file>
+    </qresource>
+    <qresource prefix="/images"/>
+</RCC>
